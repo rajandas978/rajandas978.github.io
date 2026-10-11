@@ -1,34 +1,26 @@
 # Rajan Das — BI & Analytics Leadership Portfolio
 
-A responsive executive-style portfolio website built with HTML, CSS and vanilla JavaScript for GitHub Pages.
+Executive portfolio for Head / Director-level Business Intelligence and Analytics opportunities.
 
-## Website
-https://rajandas978.github.io
+**Live website:** https://rajandas978.github.io
 
-## Portfolio features
-- Embedded interactive Tableau Public visualization (Customer Satisfaction Dashboard)
-- Selected Tableau Public gallery links
-- Two anonymized leadership case studies: BI Governance & Tableau Platform Adoption, and Enterprise Analytics Transformation
+## Positioning
+Business Intelligence and Analytics leader with 12+ years in IT, 8+ years focused on Tableau, enterprise stakeholder leadership, BI platform adoption, analytics delivery and current project experience with GCP, BigQuery and Looker.
 
-## Files
-- `index.html` — portfolio content and structure
-- `styles.css` — responsive visual theme
-- `script.js` — mobile navigation and footer year
+## Selected evidence
+- 70–90% reduction in generation time for selected financial reports through automation and Tableau implementation (retain only where the original project evidence supports the claim).
+- Three Tableau Viz of the Day recognitions.
+- 100+ students trained.
+- 22K+ LinkedIn followers.
+- 27 published Tableau Public visualizations.
 
-## Publish / update
-The site is hosted from the `main` branch and repository root using GitHub Pages.
-1. Commit updated files to `main`.
-2. Open repository **Settings → Pages** and confirm source is **Deploy from a branch**, branch `main`, folder `/ (root)`.
-3. Wait for the Pages deployment under **Actions**.
-4. Visit https://rajandas978.github.io.
-
-## Add your professional photograph
-The homepage currently has a designed portrait placeholder. To use your real photograph:
-1. Add a professional headshot named `rajan-profile.jpg` under `assets/`.
-2. Replace the `portrait-placeholder` block in `index.html` with:
-   `<img class="portrait-image" src="assets/rajan-profile.jpg" alt="Rajan Das, BI and Analytics Leader">`
-3. Add CSS for `.portrait-image`: `width:100%;height:365px;object-fit:cover;object-position:center 30%;`.
-4. Commit the changes.
+## Portfolio sections
+- Executive profile and leadership positioning
+- Professional experience: NTT DATA, CGI, HCL, Optum Global Solutions and Pyramid IT
+- Selected public GitHub projects
+- Embedded Tableau Public visualization and gallery links
+- Two anonymized leadership case studies
+- Professional community, expertise and contact details
 
 ## Public project repositories
 - [BI Adoption & Governance Intelligence Engine](https://github.com/rajandas978/Bi-adoption-governance-engine)
@@ -36,12 +28,30 @@ The homepage currently has a designed portrait placeholder. To use your real pho
 - [Tableau Admin Automation](https://github.com/rajandas978/tableau-admin-automation)
 - [SQL Interview & Practice Library](https://github.com/rajandas978/sql-interview-questions)
 
-## Accuracy and confidentiality
-- Career timeline and roles are based on the professional history currently available; please review them before external use.
-- The reported 70–90% report-generation-time reduction is a previously supplied career achievement for selected financial reports; retain only if you can substantiate it in an interview.
-- Project descriptions summarize public repositories and portfolio work; they do not claim client deployment.
-- Never publish employer-confidential data, source code, screenshots, schemas, credentials or customer information.
-- Skills listed represent experience and exposure; be prepared to explain your actual depth for each.
+## External profiles
+- [LinkedIn](https://www.linkedin.com/in/rajandas978/)
+- [Tableau Public](https://public.tableau.com/app/profile/rajan.das/vizzes)
+- [GitHub](https://github.com/rajandas978)
+
+## Files
+- `index.html` — page structure and portfolio content
+- `styles.css` — responsive visual design
+- `script.js` — mobile navigation and footer year
+- `assets/rajan-das-profile.jpg` — professional portrait
+
+## Publish updates
+The site is hosted from the `main` branch and repository root using GitHub Pages.
+1. Commit changes to `main`.
+2. In repository **Settings → Pages**, confirm **Deploy from a branch**, branch `main`, folder `/ (root)`.
+3. Check the deployment in **Actions**.
+4. Visit https://rajandas978.github.io.
+
+## Confidentiality and accuracy
+- Career timeline and role descriptions reflect the professional history currently represented on this site.
+- The 70–90% efficiency improvement applies to selected financial reports; it is not a universal programme result.
+- Case studies are anonymized experience summaries. They do not disclose client names, production data or confidential implementation details.
+- Public repository summaries do not imply client deployment.
+- Keep all achievement figures current and retain only claims that can be explained and substantiated in an interview.
 
 ## Local preview
 Open `index.html` in a browser, or run `python -m http.server 8000` from this folder and visit `http://localhost:8000`.
