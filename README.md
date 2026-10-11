@@ -1,41 +1,42 @@
-# Rajan Das — BI & Data Analytics Portfolio
+# Rajan Das — BI & Analytics Leadership Portfolio
 
-A responsive, static portfolio website built with HTML, CSS and vanilla JavaScript. Designed for GitHub Pages.
+A responsive executive-style portfolio website built with HTML, CSS and vanilla JavaScript for GitHub Pages.
 
-## Preview locally
+## Website
+https://rajandas978.github.io
 
-Open `index.html` in a browser. For a local web server, run:
+## Files
+- `index.html` — portfolio content and structure
+- `styles.css` — responsive visual theme
+- `script.js` — mobile navigation and footer year
 
-```bash
-python -m http.server 8000
-```
+## Publish / update
+The site is hosted from the `main` branch and repository root using GitHub Pages.
+1. Commit updated files to `main`.
+2. Open repository **Settings → Pages** and confirm source is **Deploy from a branch**, branch `main`, folder `/ (root)`.
+3. Wait for the Pages deployment under **Actions**.
+4. Visit https://rajandas978.github.io.
 
-Then open `http://localhost:8000`.
+## Add your professional photograph
+The homepage currently has a designed portrait placeholder. To use your real photograph:
+1. Add a professional headshot named `rajan-profile.jpg` under `assets/`.
+2. Replace the `portrait-placeholder` block in `index.html` with:
+   `<img class="portrait-image" src="assets/rajan-profile.jpg" alt="Rajan Das, BI and Analytics Leader">`
+3. Add CSS for `.portrait-image`: `width:100%;height:365px;object-fit:cover;object-position:center 30%;`.
+4. Commit the changes.
 
-## Publish as `https://rajandas978.github.io`
-
-1. On GitHub, create a **public** repository named exactly `rajandas978.github.io`.
-2. Upload the contents of this folder to the repository root (so `index.html` is at the root, not nested inside another folder).
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-5. After GitHub Pages finishes its first deployment, visit `https://rajandas978.github.io`.
-
-## Customize before publishing
-
-- `index.html`: update the About, experience, project descriptions and contact information.
-- `styles.css`: adjust the visual theme and layout.
-- `script.js`: mobile navigation and dynamic footer year.
-
-## Portfolio project links
-
+## Public project repositories
 - [BI Adoption & Governance Intelligence Engine](https://github.com/rajandas978/Bi-adoption-governance-engine)
 - [TableauMind AI](https://github.com/rajandas978/TableauMind-AI-Task)
 - [Tableau Admin Automation](https://github.com/rajandas978/tableau-admin-automation)
 - [SQL Interview & Practice Library](https://github.com/rajandas978/sql-interview-questions)
 
-## Notes
+## Accuracy and confidentiality
+- Career timeline and roles are based on the professional history currently available; please review them before external use.
+- The reported 70–90% report-generation-time reduction is a previously supplied career achievement for selected financial reports; retain only if you can substantiate it in an interview.
+- Project descriptions summarize public repositories and portfolio work; they do not claim client deployment.
+- Never publish employer-confidential data, source code, screenshots, schemas, credentials or customer information.
+- Skills listed represent experience and exposure; be prepared to explain your actual depth for each.
 
-- The portfolio uses illustrative CSS visuals; there are no fabricated client dashboard screenshots.
-- Values shown in the governance card are sample figures documented in the linked project's README, not client outcomes.
-- No employer-confidential information or production data should be added.
-- Review role titles, dates, and the contact email before publishing. The timeline reflects the career details currently available for this draft.
+## Local preview
+Open `index.html` in a browser, or run `python -m http.server 8000` from this folder and visit `http://localhost:8000`.
