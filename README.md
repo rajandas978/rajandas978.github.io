@@ -5,6 +5,11 @@ A responsive executive-style portfolio website built with HTML, CSS and vanilla 
 ## Website
 https://rajandas978.github.io
 
+## Portfolio features
+- Embedded interactive Tableau Public visualization (Customer Satisfaction Dashboard)
+- Selected Tableau Public gallery links
+- Two anonymized leadership case studies: BI Governance & Tableau Platform Adoption, and Enterprise Analytics Transformation
+
 ## Files
 - `index.html` — portfolio content and structure
 - `styles.css` — responsive visual theme
